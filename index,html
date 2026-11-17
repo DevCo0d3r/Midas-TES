@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midas Touch Employment Solutions</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #151515;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            width: 700px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #e5b52b;
+            color: #111;
+            padding: 12px 25px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .info {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .info h2 {
+            color: #b58916;
+            margin-bottom: 15px;
+        }
+
+        .info section {
+            margin-bottom: 35px;
+        }
+
+        footer {
+            background: #151515;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+
+            .hero h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <div class="hero">
+        <img src="main.jpg" alt="Midas TES">
+
+        <h1>MIDAS TOUCH EMPLOYMENT SOLUTIONS</h1>
+
+        <p>Connecting businesses with reliable, skilled and general workers.</p>
+
+        <a href="work.html" class="button">Apply Now</a>
+    </div>
+
+    <div class="info" id="about">
+
+        <section>
+            <h2>Our Vision & Mission</h2>
+            <p>
+                MIDAS TOUCH EMPLOYMENT SOLUTIONS specializes
+                in connecting businesses with reliable, skilled
+                and general workers. We simplify recruitment
+                by providing vetted employees, saving you
+                time and resources.
+            </p>
+        </section>
+
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Outsourcing of General Workers</li>
+                <li>Provision of Skilled Employees Across Industries</li>
+                <li>Temporary, Permanent and Contract Staffing</li>
+                <li>Streamlined Recruitment</li>
+            </ul>
+        </section>
+
+    </div>
+</main>
+
+<footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: MidasTch1@gmail.com</p>
+    <p>Phone: +27 65 364 4618</p>
+    <p>© 2026 Midas Touch Employment Solutions</p>
+</footer>
+
+</body>
+</html>
